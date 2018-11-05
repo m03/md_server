@@ -27,6 +27,9 @@ packages):
 - bottle (>= 0.12.0)
 - libvirt-python (>= 1.22)
 
+The libvirt-python package also requires libvirt.pc, available
+in the libvirt-dev package.
+
 Build and Install the mdserver package
 
 # python setup.py bdist_rpm
